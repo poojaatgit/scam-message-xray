@@ -1,0 +1,2 @@
+# Never let Git change line endings or diff the model file
+*.joblib binary

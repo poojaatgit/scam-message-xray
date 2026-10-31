@@ -1,0 +1,36 @@
+# Private learning notes (kept on the local machine only)
+docs/
+
+# Previous model (V3): local backup only. It still contains complete phone-number
+# strings from its training data, which V4 masks.
+scam_xray_v3.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# Editor / tool / OS files
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

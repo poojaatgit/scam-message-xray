@@ -1,0 +1,11 @@
+# Direct dependencies, pinned to a tested set (tested on Python 3.13 / Windows).
+# These versions publish wheels for Python 3.11-3.13. Other packages that
+# Streamlit installs (pandas, pyarrow, ...) are not pinned.
+
+streamlit==1.66.1
+
+# scikit-learn must match the version that saved scam_xray_v4.joblib (found inside the file).
+scikit-learn==1.6.1
+joblib==1.6.0
+numpy==2.2.6
+scipy==1.15.3
